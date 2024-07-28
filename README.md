@@ -1,14 +1,16 @@
 #movie genre classification
 #Problem Statement
+
 The aim is to develop a system that can accurately classify movies into appropriate genres based on various features such as plot summaries, scripts, trailers, and other metadata. This classification is vital for enhancing user experience in streaming platforms, improving search and recommendation systems, and aiding in content management.
 
 ##Objectives:
+
 Data Collection: Gather a comprehensive dataset of movies with labeled genres and associated features such as plot summaries, scripts, trailers, and metadata.
 Feature Extraction: Identify and extract relevant features from the collected data that contribute to genre classification.
 Model Development: Develop and train machine learning or deep learning models to classify movies into genres based on the extracted features.
-##Evaluation: Evaluate the model's performance using appropriate metrics like accuracy, precision, recall, and F1-score.
+#Evaluation: Evaluate the model's performance using appropriate metrics like accuracy, precision, recall, and F1-score.
 Deployment: Implement the classification model in a real-world application, such as a recommendation system or a content management tool.
-##Challenges:
+#Challenges:
 Multi-Label Classification: Movies often belong to multiple genres, requiring the model to handle multi-label classification.
 Feature Variability: Different types of features (textual, visual, audio) need to be processed and combined effectively.
 Class Imbalance: Some genres may have significantly more examples than others, leading to imbalanced data.
